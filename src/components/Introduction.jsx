@@ -1,11 +1,12 @@
+const intro = "/public/images/the-town-01.jpg";
 const Introduction = () => {
   return (
     <div className="flex items-center  md:2xl  lg:3xl sm:xs   pt-[1.7em] gap-[2.5em] px-[2em] w-full ">
       <img
-        src="/public/images/the-town-01.jpg"
+        src={intro}
         width="50%"
         alt="Town"
-        className="mb-[2em] bg-cover
+        className="mb-[2em] 
       "
       />
       <div>

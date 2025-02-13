@@ -1,3 +1,8 @@
+const photo1 = "/public/images/gallery-tn-01.jpg";
+const photo2 = "/public/images/gallery-tn-02.jpg";
+const photo3 = "/public/images/gallery-tn-03.jpg";
+const photo4 = "/public/images/gallery-tn-04.jpg";
+const photo5 = "/public/images/gallery-tn-05.jpg";
 const OurWork = () => {
   return (
     <div className=" flex-col text-center  pt-[2.5em] space-y-4  md:2xl  lg:3xl sm:xs ">
@@ -8,29 +13,29 @@ const OurWork = () => {
       </p>
       <div className="flex justify-center items-center w-full  space-x-6 px-[4em] pt-[2em] ">
         <img
-          src="/public/images/gallery-tn-01.jpg"
+          src={photo1}
           className=" hover:translate-y-2 duration-150 cursor-pointer "
           alt=""
         />
         <img
-          src="/public/images/gallery-tn-02.jpg"
+          src={photo2}
           className=" hover:translate-y-2 duration-150  cursor-pointer"
           alt=""
         />
         <img
-          src="/public/images/gallery-tn-03.jpg"
+          src={photo3}
           className=" hover:translate-y-2 duration-150  cursor-pointer"
           alt=""
         />
         <img
-          src="/public/images/gallery-tn-04.jpg"
+          src={photo4}
           className=" hover:translate-y-2 duration-150 cursor-pointer "
           alt=""
         />
       </div>
       <div className="flex justify-center items-center">
         <img
-          src="/public/images/gallery-tn-05.jpg"
+          src={photo5}
           className=" hover:translate-y-2 duration-150  cursor-pointer"
           alt=""
         />

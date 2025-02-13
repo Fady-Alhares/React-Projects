@@ -1,12 +1,9 @@
+const contact = "/public/images/the-town-bg-02.jpg";
 const ContactUs = () => {
   return (
     <div className="flex  pt-[3em] relative  w-full   md:2xl  lg:3xl sm:xs ">
       <div className="flex items-center justify-center w-screen h-screen ">
-        <img
-          src="/public/images/the-town-bg-02.jpg"
-          className="bg-cover h-full w-full "
-          alt=""
-        />
+        <img src={contact} className="bg-cover h-full w-full " alt="" />
       </div>
 
       <div className="absolute flex p-[4.5em]">
