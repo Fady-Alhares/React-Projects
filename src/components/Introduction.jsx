@@ -1,4 +1,4 @@
-const intro = "/public/images/the-town-01.jpg";
+const intro = "/src/assets/the-town-01.jpg";
 const Introduction = () => {
   return (
     <div className="flex items-center  md:2xl  lg:3xl sm:xs   pt-[1.7em] gap-[2.5em] px-[2em] w-full ">
