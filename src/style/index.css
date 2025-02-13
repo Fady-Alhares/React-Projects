@@ -2,13 +2,3 @@
 @plugin "daisyui" {
   themes: retro, dark;
 }
-
-@theme {
-sm: → min-width: 640px (phones)
-md: → min-width: 768px (tablets)
-lg: → min-width: 1024px (small laptops)
-xl: → min-width: 1280px (large laptops)
-2xl: → min-width: 1536px (extra-large screens)
-text-3xl sm:text-4xl md:text-5xl
-
-}

@@ -1,9 +1,6 @@
 const Header = () => {
   return (
     <div className="flex justify-center items-center  md:2xl  lg:3xl sm:xs  ">
-      {/*  */}
-
-      {/*  */}
       <div className="  absolute pt-[3.5em] flex flex-wrap   space-x-[15em]  text-[1.3em] text-white  font-bold font-[cursive]">
         <div className="pe-[3em]">
           <a href="">Online</a>

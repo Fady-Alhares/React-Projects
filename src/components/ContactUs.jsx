@@ -31,6 +31,7 @@ const ContactUs = () => {
         </div>
       </div>
 
+      {/* Email & Subscription Form */}
       <div className="relative z-10 flex flex-col items-center md:items-end w-full md:w-1/3 px-6 py-10">
         <p className="text-xl text-white mb-4">Email: fadyalhares@gmail.com</p>
 
