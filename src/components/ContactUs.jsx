@@ -2,56 +2,56 @@ import contact from "../assets/the-town-bg-02.jpg";
 
 const ContactUs = () => {
   return (
-    <div className="flex  pt-[3em] relative  w-full   md:2xl  lg:3xl sm:xs ">
-      <div className="flex items-center justify-center w-screen h-screen ">
-        <img src={contact} className="bg-cover h-full w-full  " alt="" />
+    <div className="relative w-full h-screen flex flex-col md:flex-row items-center justify-center">
+      <div className="absolute inset-0">
+        <img
+          src={contact}
+          className="w-full h-full object-cover"
+          alt="Contact Us"
+        />
       </div>
 
-      <div className="absolute flex p-[4.5em]">
-        <div className="flex-col text-start justify-start items-center pt-[2em]">
-          <h1 className="text-5xl px-[1.5em] text-white font-bold mb-3 pt-2">
-            Contact Us
-          </h1>
-          <div className="px-[2em]">
-            <div className="w-[90%]  bg-white h-[0.3vh] flex-col items-center justify-center ">
-              <div className="w-[30%]  bg-white h-[1.2vh] "></div>
-            </div>
-          </div>
+      <div className="relative z-10 flex flex-col text-center md:text-left px-6 md:px-16 py-10 w-full md:w-2/3">
+        <h1 className="text-4xl md:text-5xl text-white font-bold mb-4">
+          Contact Us
+        </h1>
 
-          <p className="px-[2em] pt-[2em]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At in sequi
-            facere, doloribus fugit inventore error quo doloremque cum esse?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <div className="flex-col space-y-10  pt-[4.5em] px-[2em] ">
-            <p>Phone: +20 1286585449</p>
-            <p>Location: Location On Map</p>
-          </div>
+        <div className="w-[90%]  bg-white h-[0.3vh] flex-col items-center justify-center ">
+          <div className="w-[30%]  bg-white h-[1.2vh] "></div>
         </div>
 
-        <div />
+        <p className="mt-6 text-white text-lg leading-relaxed">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At in sequi
+          facere, doloribus fugit inventore error quo doloremque cum esse?
+        </p>
 
-        <div className=" absolute right-[10%] top-[70%]">
-          <p className="text-xl text-white">Email: fadyalhares@gmail.com</p>
-
-          <fieldset className="fieldset w-xs join p-4 rounded-box">
-            <input
-              type="text"
-              className="input join-item bg-white rounded-3xl "
-              placeholder="Subscribe Your Mail"
-            />
-            <button className="bg-white text-black-900 p-3.5 text-[1em] rounded-2xl hover:bg-blue-400 duration-150 cursor-pointer">
-              SUBMIT
-            </button>
-          </fieldset>
+        <div className="mt-8 space-y-4 text-white">
+          <p> Phone: +20 1286585449</p>
+          <p> Location: Location On Map</p>
         </div>
       </div>
-      <div className=" h-screen">
-        <p className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center text-white p-4">
+
+      <div className="relative z-10 flex flex-col items-center md:items-end w-full md:w-1/3 px-6 py-10">
+        <p className="text-xl text-white mb-4">Email: fadyalhares@gmail.com</p>
+
+        <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-2 bg-white p-2 rounded-3xl">
+          <input
+            type="text"
+            className="w-full sm:w-auto px-4 py-2 rounded-3xl focus:outline-none"
+            placeholder="Subscribe Your Mail"
+          />
+          <button className="bg-blue-500 text-white px-5 py-2 rounded-2xl hover:bg-blue-600 duration-150">
+            SUBMIT
+          </button>
+        </div>
+      </div>
+
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center text-white p-4 w-full">
+        <p>
           Copyright © 2025 Company Name - Design:{" "}
-          <span href="#" className="text-blue-500 hover:underline">
+          <a href="#" className="text-blue-400 hover:underline">
             Fady Wagih
-          </span>
+          </a>
         </p>
       </div>
     </div>
