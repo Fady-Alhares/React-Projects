@@ -5,7 +5,7 @@ const Introduction = () => {
         src="/public/images/the-town-01.jpg"
         width="50%"
         alt="Town"
-        className="mb-[2em]
+        className="mb-[2em] bg-cover
       "
       />
       <div>
