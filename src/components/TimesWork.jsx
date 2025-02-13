@@ -1,6 +1,6 @@
 const TimesWork = () => {
   return (
-    <section className="flex text-center   md:2xl  lg:3xl sm:xs   gap-2 pt-[2.5em] px-[1em] h-[35vh]  bg-linear-[180deg,#e3987f,#5c648c] ">
+    <section className="flex text-center mt-[2em]  md:2xl  lg:3xl sm:xs   gap-2 pt-[2.5em] px-[1em] h-[35vh]  bg-linear-[180deg,#e3987f,#5c648c] ">
       <div className="flex-col flex space-y-2">
         <h1 className="font-bold text-3xl text-white">First Work</h1>{" "}
         <a

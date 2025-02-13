@@ -1,8 +1,10 @@
-const photo1 = "/src/assets/gallery-tn-01.jpg";
-const photo2 = "/src/assets/gallery-tn-02.jpg";
-const photo3 = "/src/assets/gallery-tn-03.jpg";
-const photo4 = "/src/assets/gallery-tn-04.jpg";
-const photo5 = "/src/assets/gallery-tn-05.jpg";
+const photo1 = "./src/assets/gallery-tn-01.jpg";
+// /src/assets/gallery-tn-01.jpg
+const photo2 = "./src/assets/gallery-tn-02.jpg";
+const photo3 = "./src/assets/gallery-tn-03.jpg";
+const photo4 = "./src/assets/gallery-tn-04.jpg";
+const photo5 = "./src/assets/gallery-tn-05.jpg";
+
 const OurWork = () => {
   return (
     <div className=" flex-col text-center  pt-[2.5em] space-y-4  md:2xl  lg:3xl sm:xs ">
